@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:impl="http://impl.webservice.scc.segue.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <impl:logonUser soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <username xsi:type="xsd:string">[USER]</username>
+         <plainPwd xsi:type="xsd:string">[PASSWORD]</plainPwd>
+      </impl:logonUser>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webservice.planning.frontendserver.tm.segue.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:startExecution soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <sessionId xsi:type="xsd:long">[SESSION_ID]</sessionId>
+         <executionDefId xsi:type="xsd:int">[EXECUTION_DEF_ID]</executionDefId>
+         <version xsi:type="xsd:string">[VERSION]</version>
+         <build xsi:type="xsd:string">[BUILD]</build>
+         <execServerHostName xsi:type="xsd:string">[EXEC_SERVER_HOST_NAME]</execServerHostName>
+         <execServerPort xsi:type="xsd:int">[EXEC_SERVER_PORT]</execServerPort>
+      </web:startExecution>
+   </soapenv:Body>
+</soapenv:Envelope>
