@@ -49,4 +49,10 @@
 
 	</dependencies>
 
+	<properties>
+		<sonar.projectKey>kaapiel_Silk-Integration</sonar.projectKey>
+		<sonar.organization>gabs</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	</properties>
+
 </project>
